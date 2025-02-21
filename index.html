@@ -18,7 +18,7 @@
 
     .main {
         color: black;
-        background-image: url('https://occ-0-1123-1217.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABeIfo7VL_VDyKnljV66IkR-4XLb6xpZqhpLSo3JUtbivnEW4s60PD27muH1mdaANM_8rGpgbm6L2oDgA_iELHZLZ2IQjG5lvp5d2.jpg?r=e6e.jpg');
+        background-image: url('https://cdn.imweb.me/upload/S202207202685e30f16e24/8b48c67f8cdf6.jpeg');
         background-position: center;
         background-size: cover;
     }
@@ -44,6 +44,9 @@
         background-color: transparent;
     }
 
+    .postingbtn{
+        box-shadow: 3 3 3 3;
+    }
     .mypostingbox>button {
         width: 100%;
     }
@@ -114,16 +117,15 @@
 </script>
 
 
-
 <body>
-
+    <div class="main">
     <div class="p-5 mb-4 bg-body-tertiary rounded-3">
         <div class="container-fluid py-5">
             <h1 class="display-5 fw-bold">어서오세요</h1>
             <p class="col-md-8 fs-4"> 테스트용 화면입니다.. </p>
         </div>
     </div>
-
+    </div>
     <div class="mypostingbox" id="postingbox">
         <div class="form-floating mb-3">
             <input type="text" class="form-control" id="content" placeholder="내용 작성">
@@ -133,7 +135,7 @@
             <input type="text" class="form-control" id="writer" placeholder="작성자 이름">
             <label for="floatingInput">작성자</label>
         </div>
-        <button id="postingbtn" type="button" class="btn btn-danger">기록하기</button>
+        <button id="postingbtn" type="button" class="btn btn-secondary">작성</button>
     </div>
     <div class="mycards">
         <div class="row row-cols-1 row-cols-md-4 g-4" id="card">
